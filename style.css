@@ -298,3 +298,11 @@ h3{
     margin-top: 15px;
     text-align: left;
 }
+
+.testimonial-col .fa-solid{
+    color: #f44336;
+}
+
+.testimonial-col .fa-regular{
+    color: #f44336;
+}
