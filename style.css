@@ -180,3 +180,11 @@ h3{
         flex-direction: column;
     }
 }
+
+/*---------- Campus ----------*/
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
