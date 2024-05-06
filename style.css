@@ -263,3 +263,11 @@ h3{
     margin-bottom: 15px;
     text-align: left;
 }
+
+/*------------- Testimonials -------------*/
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
