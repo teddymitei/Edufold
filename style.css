@@ -306,3 +306,10 @@ h3{
 .testimonial-col .fa-regular{
     color: #f44336;
 }
+
+@media(max-width: 700px){
+    .testimonial-col img{
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+}
