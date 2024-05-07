@@ -402,3 +402,13 @@ h3{
 .about-col p{
     padding: 15px 0 25px;
 }
+
+.red-btn{
+    border: 1px solid #f44336;
+    background: transparent;
+    color: #f44336;
+}
+
+.red-btn:hover{
+    color: #fff;
+}
