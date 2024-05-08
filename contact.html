@@ -62,11 +62,11 @@
                 </div>
             </div>
             <div class="contact-col">
-                <form action="">
-                    <input type="text" placeholder="Enter Your Name" required>
-                    <input type="email" placeholder="Enter Email Adrdress" required>
-                    <input type="text" placeholder="Enter Your Subject" required>
-                    <textarea rows="10" placeholder="Message" required></textarea>
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Email Adrdress" required>
+                    <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                    <textarea rows="10" name="message" placeholder="Message" required></textarea>
                     <button type="submit" class="hero-btn red-btn">Sende Message</button>
                 </form>
             </div>
