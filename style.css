@@ -312,6 +312,20 @@ h3{
         margin-left: 0px;
         margin-right: 15px;
     }
+    .testimonial-col .fa-solid{
+    display: inline-block;
+    color: #f44336;
+    font-size: 15px;
+    margin-right: 0; 
+}
+.testimonial-col .fa-regular{
+    color: #f44336;
+    display: inline-block;
+    color: #f44336;
+    font-size: 15px;
+    margin-left: 10px; 
+}
+
 }
 
 /*------------ Call To Action ------------*/
