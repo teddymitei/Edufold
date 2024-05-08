@@ -4,7 +4,7 @@
  $subject = $_POST['subject'];
  $message = $_POST['message'];
 
- $email_form = 'edufold2000.vercel.app';
+ $email_from = 'edufold2000.vercel.app';
 
  $email_subject = 'New Form Submission';
 
@@ -21,6 +21,6 @@ $headers .= "Reply-To: $visitor_email \r\n";
 
 mail($to,$email_subject,$email_body,$headers);
 
-header ("location: contact.html");
+header ("Location: contact.html");
 
 ?>
