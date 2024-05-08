@@ -106,7 +106,7 @@ nav .fa-solid{
         display: block;
     }
     .nav-links{
-        position: absolute;
+        position: fixed;
         background: #f44336;
         height: 100vh;
         width: 200px;
@@ -534,4 +534,13 @@ h3{
     margin-bottom: 5px;
     color: #555;
     font-weight: 400;
+}
+
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
